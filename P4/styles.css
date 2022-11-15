@@ -1,0 +1,40 @@
+body {
+	background-color: #e3516e;
+}
+
+.container {
+	display: grid;
+	grid-template-columns: auto auto;
+	width: 98vw;
+	height: 98vh;
+}
+
+.item{
+	width: 25vw;
+	height: 25vw;
+}
+
+#tl{
+	background-color: #51b5a9;
+	justify-self: flex-end;
+	align-self: flex-end;
+	border-radius: 25vw 0 0 0;
+}
+
+#tr{
+	background-color: #fade8b;
+	justify-self: flex-start;
+	align-self: flex-end;
+	border-radius: 0 25vw 0 0;
+}
+
+#bl{
+	background-color: #f7f3d7;
+	justify-self: flex-end;
+	align-self: flex-start;
+	border-radius: 0 0 0 25vw;
+}
+
+#br{
+	background-color: rgba(0,0,0,0);
+}

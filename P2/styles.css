@@ -1,0 +1,26 @@
+body {
+	background-color: #62306d;
+	display: flex;
+	align-items: center;
+	height: 98vh;
+}
+
+.container {
+	display: flex;
+	width: 98vw;
+	height: 66vh;
+	justify-content: center;
+	align-items: flex-end;
+}
+
+.box {
+	background-color: #f7ec7d;
+	width: 25vw;
+	height: 33vh;
+	border-radius: 0 0 12.5vw 12.5vw;
+}
+
+.different {
+	align-self: flex-start;
+	transform: rotate(180deg);
+}
